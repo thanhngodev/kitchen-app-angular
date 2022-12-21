@@ -1,0 +1,28 @@
+form {
+  margin-top: 10%;
+  width: 50%;
+}
+
+img {
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+h1,
+p {
+  padding-left: 20px;
+}
+
+.currency {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+}
